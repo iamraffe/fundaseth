@@ -10,12 +10,12 @@
 	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title><?php echo translator ($title[$page]); ?></title>
-   
-    
+
+
 	<meta name="description" content="<?php echo translator ($description[$page]);?>">
-    <?php 
+    <?php
 		if($page == 0){
-			echo "<meta name=\"keywords\" content=\" "; 
+			echo "<meta name=\"keywords\" content=\" ";
 			echo translator ($keywords[$page]);
 			echo " \">";
 		}
@@ -23,7 +23,7 @@
 	<meta name="author" content="Rafael Ramirez Urbina (www.fundaseth.es)">
     <meta name="designer" content="Rafael Ramirez Urbina (www.fundaseth.es)">
 	<!--<link rel="shortcut icon" href="favicon.ico">-->
-    
+
 	<!-- Responsive and mobile friendly stuff -->
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
@@ -55,7 +55,6 @@
 			";
 		}
     ?>
-    
     <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
 
 	<!-- Responsive Stylesheets -->
@@ -65,15 +64,14 @@
 
 	<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements and feature detects -->
 	<script src="js/modernizr-2.5.3-min.js"></script>
-    
+
     <?php
-	
 		if($page == 1){
 			echo "
 			<!--Adobe Edge Runtime-->
 				<script>
-					var custHtmlRoot=\"logo/Assets/\"; 
-					var script = document.createElement('script'); 
+					var custHtmlRoot=\"logo/Assets/\";
+					var script = document.createElement('script');
 					script.type= \"text/javascript\";
 				script.src = \"http://animate.adobe.com/runtime/5.0.1/edge.5.0.1.min.js\";
 					var head = document.getElementsByTagName('head')[0], done=false;
@@ -91,7 +89,7 @@
 				};
 							opts.htmlRoot =custHtmlRoot;
 							AdobeEdge.loadComposition('logo', 'EDGE-1051506168', opts,
-							{\"dom\":{}}, {\"dom\":{}});		
+							{\"dom\":{}}, {\"dom\":{}});
 							script.onload = script.onreadystatechange = null;
 							head.removeChild(script);
 						}
@@ -101,11 +99,9 @@
 				<style>
 						.edgeLoad-EDGE-1051506168 { visibility:hidden; }
 				</style>
-				<!--Adobe Edge Runtime End-->	
-			
+				<!--Adobe Edge Runtime End-->
 				";
 			}
-			
 	?>
 
 </head>
@@ -118,15 +114,13 @@
 					}
 				?>">
         	<div class="inner">
-            	<a href="/"><img id="logo" src="<?php 
+            	<a href="/"><img id="logo" src="<?php
 					if($page!=0){
 						echo "img/logo_white.svg";
 					}else{
 						echo "img/logo.png";
 					}
 				?>" alt="Logo de Fundaseth, S.L." /></a>
-                
-                
                 <div id="dd" class="wrapper-dropdown-3 <?php if($page==0) echo "home-dropdown"; ?>" tabindex="1">
                     <span><?php if($lang == 'es'){ echo '<img src="img/spain.png" style="max-width: 25px;">'; }else{ echo '<img src="img/usa.png" style="max-width: 25px;">'; }  ?></span>
                     <ul class="dropdown">
@@ -134,8 +128,7 @@
                         <li><a href="<?php echo $url; ?>?lang=es" title="Spanish"><?php echo translator("Español") ?></a></li>
                     </ul>
                 </div>
-            
-                <nav>                     
+                <nav>
                      <ul>
                      	<li><a href="fundaseth.php?lang=<?php echo $locale_lang; ?>"><p><?php echo translator("fundaseth") ?></p></a></li>
                         <li><a href="services.php?lang=<?php echo $locale_lang; ?>"><p><?php echo translator("servicios") ?></p></a></li>

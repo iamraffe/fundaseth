@@ -2,6 +2,7 @@
 		<footer>
         	<div class="col span_1_of_4">
             	<p class="floatleft"><?php echo translator("© Fundaseth, S.L. 2014") ?></p>
+            	<a class="floatleft" href="condiciones.php"><?php echo translator("Condiciones de uso") ?></a>
             </div>
             <div class="col span_3_of_4">
             	<p class="floatright"><?php echo translator("c/ Alejandro Rodríguez, 32. 28039 Madrid. Tel.: 913981628") ?></p>
@@ -27,9 +28,9 @@
 echo "<script>";
 echo	"$('.open-popup-link').magnificPopup({";
 echo	  "type:'inline',";
-echo	  "midClick: true,"; 
+echo	  "midClick: true,";
 echo	  "closeBtnInside:true";
-echo	"});";	
+echo	"});";
 echo "</script>";
     }
 ?>
@@ -81,7 +82,7 @@ echo "</script>";
 						if(obj.index == 0){
 							//window.location
 							url = url + '?lang=en_US';
-							
+
 						}
 						else{
 							//window.location
@@ -89,7 +90,7 @@ echo "</script>";
 						}
 						window.location = url;
 					});
-				},/*	
+				},/*
 				getValue : function() {
 					return this.val;
 				},
@@ -97,7 +98,7 @@ echo "</script>";
 					return this.index;
 				}*/
 			}
-			
+
 			$(function() {
 
 				var dd = new DropDown( $('#dd') );
@@ -108,12 +109,12 @@ echo "</script>";
 				});
 
 			});
-			
+
 			      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    
+
       ga('create', 'UA-52435582-1', 'auto');
       ga('send', 'pageview');
 </script>
