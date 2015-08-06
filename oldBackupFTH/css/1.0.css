@@ -1,0 +1,330 @@
+html { 
+	height: 100%; 
+}
+body{
+	min-height: 100%;
+	color: #000; 
+	font-size: 12px; 
+	line-height: 18px; 
+	font-family: 'Open Sans'; 
+	background-color:transparent;
+	margin: 0 auto;
+
+}
+
+header {
+	height: 100px;
+	overflow:hidden;
+	margin: 0 auto;
+	width:1080px;
+}
+
+nav 
+{
+    clear:both;
+	position: absolute;
+	background-color:white;
+    top: 0;
+    left: 0;
+    right: 0;
+	font-weight:300;
+}
+nav img
+{
+	position: relative;
+	float:left;
+	left: 400px;
+	background-color: hsla(0,0%,100%,0.00);
+	top: 10px;;
+	width: 310px;
+	height: 55px;
+}
+
+nav ul
+{
+    position: relative;
+    /*right: 360px;*/
+	float:left;
+	left:600px;
+	top:15px;
+	list-style:none;
+}
+nav li{
+	display:inline;
+	margin-right: 40px;
+}
+
+#content{
+	overflow:hidden;
+	margin: 0 auto;
+	width:1080px;
+}
+#above{
+	position: relative;
+	height: 136px;
+	width: 400px;
+	overflow: hidden;
+	left: 105px;
+	top: 128px;
+	
+}
+#above h1{
+	position: relative;
+	text-align: left;
+	font-size: 25px;
+	line-height: 46px;
+	font-weight: 300;
+}
+#grid{
+	/*visibility: hidden;*/
+	position: relative;
+	top: 124px;
+	left: 40px;
+	float:left;
+
+}
+#grid img{
+	float:left;
+}
+#grid .services{
+	position:relative;
+	float:left;
+	width:375px;
+	margin-top:-175px;
+	height:875px;
+}
+#below{
+	position: relative;
+	float:left;
+	width: 650px;
+	height: 500px;
+	/*overflow:hidden;*/
+	left: 75px;
+	margin-top: -350px;
+
+}
+#below p{
+	font-size: 18px;
+	line-height: 23px;
+	text-align:justify;
+	font-weight: 300;
+	color:black;
+	padding-right:20px;
+}
+.kwicks {
+	width: 350px;
+	height: 175px;	
+}
+
+.quienes, .services, .news, .empleo, .contacto{
+	cursor: pointer;
+}
+#grid > .quienes .tholder, #grid > .services .tholder, 
+#grid > .news .tholder, #grid > .empleo .tholder, 
+#grid > .contacto .tholder, #grid .services.kwicks .social .tholder, 
+#grid .services.kwicks .eventos .tholder, #grid .services.kwicks .web .tholder,
+#grid .services.kwicks .coworking .tholder{
+	width:175px;
+	height: 40px;
+	background-color:rgba(0,0,0);
+	background-color:rgba(0,0,0,0.5);
+}
+#grid > .quienes .tholder{
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+}
+/*#grid .services.kwicks .social .tholder{
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	transition:width 500 ease 2500;
+}
+#grid .services.kwicks .social .tholder:hover{
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width:350px;
+	transition:width 0.5s ease 0.15s;	
+}*/
+#grid .services.kwicks .eventos .tholder, #grid .services.kwicks .web .tholder,
+#grid .services.kwicks .coworking .tholder{
+	
+	transition:width 0.5s ease 0.15s;
+}
+#grid .services.kwicks .eventos .tholder:hover, #grid .services.kwicks .web .tholder:hover,
+#grid .services.kwicks .coworking .tholder:hover{
+	width:350px;
+	transition:width 0.5s ease 0.15s;
+}
+#grid > .quienes{
+	/*background-image:url(../images/quienes.png);*/
+	background-color: #004358;
+	width:175px;
+	height:175px;
+	z-index:0;
+	background-position: left;
+	background-repeat: no-repeat;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#grid > .news{
+	/*background-image:url(../images/world.png);*/
+	background-color: #1F8A70;
+	width:175px;
+	height:175px;
+	z-index:0;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+#grid > .empleo{
+	/*background-image:url(../images/job.png);*/
+	background-color: #BEDB39;
+	width:175px;
+	height:175px;
+	z-index:0;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+#grid > .contacto{
+	/*background-image:url(../images/contact.png);*/
+	background-color: #FFE11A;
+	width:175px;
+	height:175px;
+	z-index:0;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+#grid .services.kwicks .social{
+	background-color: #FD0006;
+	width:350px;
+	height:175px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+}
+#grid .services.kwicks .social .cover{
+	background-color: #FD0006;
+	width:175px;
+	height:175px;
+	/*margin:20px;*/
+	text-align:center;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+}
+#grid .services.kwicks .eventos{
+	background-color: #FD7400;
+	width:350px;
+	height:175px;
+}
+#grid .services.kwicks .eventos .cover{
+	background-color: #FD7400;
+	width:175px;
+	height:175px;
+	/*margin:20px;*/
+	text-align:center;
+}
+#grid .services.kwicks .web{
+	background-color:#FFAB00;
+	width:350px;
+	height:175px;
+	
+}
+#grid .services.kwicks .web .cover{
+	background-color:#FFAB00;
+	width:175px;
+	height:175px;
+	/*margin:20px;*/
+	text-align:center;
+	
+}
+#grid .services.kwicks .coworking{
+	background-color:#009999;
+	width:350px;
+	height:175px;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#grid .services.kwicks .coworking .cover{
+	background-color:#009999;
+	width:175px;
+	height:175px;
+	text-align:center;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	
+}
+
+
+.title{
+	color:white;
+	vertical-align:middle;
+	padding-top: 20px;
+	font-family: 'Open Sans'; 
+	zoom: 1;
+	filter: alpha(opacity=75);
+	opacity: 0.75;
+	
+}
+.title:hover{
+	opacity: 1;
+	zoom:150%;
+	
+}
+.pink{
+	color:#f2ab17;
+	font-weight:400;
+	font-style:italic;
+}
+/*.scroll-bar {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    bottom: 4px;
+    width: 6px;
+}
+
+.scroll-bar .bar {
+    position: absolute;
+    width: 4px;
+    min-height: 4px;
+    cursor: pointer;
+    background: #000;
+    border: 1px solid #fff;
+    margin: -1px 0;
+    
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    
+    -webkit-background-clip: padding-box;
+}
+*/

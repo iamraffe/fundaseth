@@ -1,0 +1,62 @@
+/*  MAKE LAYOUT RESPONSIVE at 1024px FOR SMALLER SCREENS ================================================================ */
+
+
+	
+		header {
+			width: 93.75%; /* 960px / 1024px */
+		}
+		nav{
+			position:absolute;
+			top: 85px;
+			width: 100%;
+			left:0;
+			right:0;
+			margin-left:auto;
+			margin-right:auto;
+			z-index: 999;
+		}
+					nav ul li a{
+						font-size:80%;
+								
+					}
+		
+			.banner ul li h2{
+				display: block;
+				margin: 0 auto;
+				margin-top: 125px;
+				font-size: 175%;
+				text-align:center;
+				color: white;
+				width: 90%;
+			}				#marketSlide{
+					background: url(../img/market1024.jpg) no-repeat; background-size: 100% 100%;
+				}
+								#gestionSlide{
+					background: url(../img/gestion1024.jpg) no-repeat; background-size: 100% 100%;
+				}
+								#especializacionSlide{
+					background: url(../img/asesoramiento1024.jpg) no-repeat; background-size: 100% 100%;
+				}
+				#proteccionSlide{
+					background: url(../img/proteccion1024.jpg) no-repeat; background-size: 100% 100%;
+				}
+				#estudiosSlide{
+					background: url(../img/estudios1024.jpg) no-repeat; background-size: 100% 100%;
+				}
+		
+		#maincontent{
+					width: 93.75%; /* 960px / 1024px */
+		}
+		
+		.maincontent{
+			width: 93.75%; /* 960px / 1024px */
+		}
+		
+			.teaser p{
+				font-size: 85%;
+			}
+		
+		footer {
+			width: 93.75%; /* 960px / 1024px */
+		}
+		

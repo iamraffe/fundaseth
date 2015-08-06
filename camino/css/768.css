@@ -1,0 +1,105 @@
+/*  MAKE LAYOUT RESPONSIVE at 768px FOR IPAD PORTRAIT ================================================================ */
+		body{
+			overflow-x: hidden;
+			font-size: 0.75em !important;
+		}
+		header {
+			height: 78.5px;
+			width: 100%; /* 450px / 480px */
+		}
+		.inner{
+			width: 100%;
+		}
+		.wrapper-dropdown-3{
+			top: 45px;
+			width: 100%;
+		}
+			img#logo{
+				float: none;
+				display:block;
+				margin: 15px auto 5px;
+				width: 30%;
+			}
+			nav{
+				float: none;
+				width: 100%;
+			}
+			nav ul{
+				width: 100%;
+			}
+				nav ul li{
+					width: 16.5%;
+					width: calc(100% / 6);
+					font-size: 0.5em;
+				}
+				#langChoose ul li{ width: 100%;}
+				nav ul li a{
+					padding: 0.15em 0em;
+					height: auto;
+					font-size: 2em;
+				}
+				
+				.active a{
+						border-bottom: 2.5px solid #2980b9;
+				}
+
+		#maincontentcontainer{ width:100%;}
+		#maincontent{
+			width: 93.75%; /* 450px / 480px */
+			min-height:0;
+		}
+		
+	
+		.maincontent{
+			/*width: 93.75%;*/
+			min-height:0;
+		}
+		
+		
+		footer {
+			width: 93.75%; /* 450px / 480px */
+		}
+		#foo{padding-top: 78px;}
+		.yellowContainer{ }
+		#galleria{ width:400px; height: auto; margin: 0 auto; padding: 0;}
+		.yellowTitle{font-size: 1.25em;}
+		#daySelect ul li{
+			width: 32.5%;
+			width: calc(87.5% / 3);
+			margin-top: 5px;
+			font-size: 0.75em;
+		
+		}
+		.santiagoQuote{font-style:italic; color: #a5a4a4; background: #FCFCFC; border: 1px dashed #2980B9; padding: 10px; margin:0px; margin-left:0px; font-family: 'Montserrat';  text-align: center;}
+		.santiagoQuote p{padding-left: 0px !important;}
+		
+		.travel .col img{margin-top: 25px !important;}
+		
+		.travel .col p:last-child{ margin-bottom: 0px !important;}
+		.travel .col p:first-child, .case .col p:first-child{ margin-top: 15px !important;}
+		
+		.santiago .section{margin-top:0px !important;}
+		
+		input, textarea, button{ max-width: 32.5%;}
+		textarea{max-width:45%;}
+		button{max-width: 20%;}
+		.col p{padding: 0 !important;}
+		
+		#langChoose ul{
+			height: auto;
+		}
+		#langChoose img{
+			width: 15px;
+			left: 15px;
+			top: 2px;
+		}
+		
+		#langChoose ul li a{
+			font-size: 3.5em;
+			height: auto; 
+			padding: 0;
+			padding-top: 2.5px;
+			margin-left: 7.5px;
+		}
+		
+		#youtubeVid{height: auto; min-height: 0;}

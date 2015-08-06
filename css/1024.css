@@ -1,0 +1,112 @@
+/*  MAKE LAYOUT RESPONSIVE at 1024px FOR SMALLER SCREENS ================================================================ */
+
+
+		body{
+			overflow-x: hidden;
+		}
+		header {
+			width: 100%; /* 960px / 1024px */
+			height: 100px;
+		}
+		
+			#logo{
+				width: 25%;
+				margin-top: 5px;
+				float:left;
+			}
+				.wrapper-dropdown-3{
+					right: 35px;
+					width: 125px;
+					padding-top: 22.5px;
+				}
+				
+			nav{
+				width: 80%;
+				float: none;
+				display: block;
+				margin: 0 auto;
+			}
+				
+			nav ul{
+				padding-top: 0%;
+			}
+				nav ul li{ 
+					
+					float:left;
+					cursor: pointer;
+					width: 20%;
+					width: calc(100%/5);
+					text-align: center; 
+					margin: 0 !important;
+					padding: 0;
+					
+				}	
+
+					nav ul li a{
+						color: #808080;
+						font-size: 90%;
+						vertical-align: bottom;
+					}
+			.banner{
+				height: 300px;
+				min-height: 20em;
+			}
+				.banner ul li{
+					height: 300px;
+					min-height: 20em;
+				}
+					.banner ul li p{
+						font-size: 150%;
+					}
+			#webSlider img, #eventSlider img, #coworkingSlider img{
+				width: 75%;
+			}
+		#maincontent{
+					width: 93.75%; /* 960px / 1024px */
+		}
+		
+		.maincontent{
+			width: 93.75%; /* 960px / 1024px */
+		}
+		
+			.homeHeading{
+				
+			}
+			
+			.homeIntro{
+				font-size: 95%;
+			}
+			.dogAnimation{
+				padding-top: 40px;
+			}
+		
+			.aboutExt p{
+				font-size: 90%;
+			}
+		#footercontainer{
+			width: 95%;
+		}
+
+			footer {
+				width: 93.75%; /* 960px / 1024px */
+			}
+			
+			footer p{
+				font-size: 70%;
+			}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 50px;
+  width: auto;
+  max-width: 75%;
+  margin: 0px auto;
+  max-height: 50%;
+  font-size: 100%;
+}
+.white-popup h4{
+	background:#F1C40F; color: white !important;  width: 75%; display: block; margin: 0 auto; padding: 2.5%; text-align:center; font-size: 175%;
+	margin-bottom: 50px;
+	margin-top:-50px;
+}	

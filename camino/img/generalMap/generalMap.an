@@ -1,0 +1,77 @@
+
+{
+
+	"HTMLFileName":"generalMap.html",
+	"expanded:images/Pasted.svg":"nil",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Precargador\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Nivel inferior\": {\
+   \"timelines\": {\
+\
+   }}\
+}",
+	"expanded:images/sarria.svg":"nil",
+	"expanded:images/generalMap.svg":"nil",
+	"expanded:images/porto.svg":"nil",
+	"pref__general__FilterNonAnimatedElements":"false",
+	"expanded:images/palas.svg":"nil",
+	"PubDPSTransparentPoster":"true",
+	"expanded:images/arzua.svg":"nil",
+	"symbol_stage":{
+		"dummyStageParentWidth":"581px",
+		"element_${pedro}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x00bda4"},
+		"dummyStageParentHeight":"250px",
+		"element_${arzua}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x00a096"},
+		"element_${sarria}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8"},
+		"element_${santi}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"timelineColor":"0x50bd82",
+			"timelineTreeOpened":"true",
+			"locked":"false"},
+		"element_${generalMap}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"timelineColor":"0x91c767"},
+		"element_${Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"},
+		"defaultStageParentWidth":"581px",
+		"defaultStageParentHeight":"250px",
+		"element_${palas}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"timelineColor":"0x2f73ad"},
+		"element_${porto}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"timelineColor":"0x00a9fa"}},
+	"PubWeb":"false",
+	"CompZoomFactor":"100",
+	"StageZoomFactor":"106",
+	"pixelsPerMs":"0.2",
+	"viewStartY":"0",
+	"usedBOM":"false",
+	"nextElementColorIndex":"9",
+	"stage-Default Timeline_playhead_ms":"0",
+	"PubDPSUseCDN":"true",
+	"PubDPS":"true",
+	"expanded:images/Pasted2.svg":"nil"}

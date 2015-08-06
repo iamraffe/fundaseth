@@ -1,0 +1,797 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fundaseth\n"
+"POT-Creation-Date: 2015-02-19 17:51+0100\n"
+"PO-Revision-Date: 2015-02-19 18:06+0100\n"
+"Last-Translator: Rafael Ramírez Urbina <r.ramirez@fundaseth.es>\n"
+"Language-Team: Fundaseth <r.ramirez@fundaseth.es>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: translator;gettext;gettext_noop\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+"X-Poedit-SearchPath-2: ../../..\n"
+"X-Poedit-SearchPathExcluded-0: ../../../oldBackupFTH\n"
+"X-Poedit-SearchPathExcluded-1: ../../../proyectos\n"
+"X-Poedit-SearchPathExcluded-2: ../../../camino\n"
+"X-Poedit-SearchPathExcluded-3: ../../../fundawork\n"
+
+#: ../../../contact.php:13
+msgid "Contacto"
+msgstr "Contact"
+
+#: ../../../contact.php:17
+msgid "No sea tímido, contáctenos. Podría ser el comienzo de algo grande."
+msgstr "Don't be shy, contact us. It could be the start of something big."
+
+#: ../../../contact.php:27
+msgid "Nombre completo*"
+msgstr "Name*"
+
+#: ../../../contact.php:28
+msgid "Correo electrónico*"
+msgstr "Email*"
+
+#: ../../../contact.php:29
+msgid "Teléfono (Opcional)"
+msgstr "Phone number (Optional)"
+
+#: ../../../contact.php:30
+msgid "Escriba aquí sus comentarios..."
+msgstr "Write your message here..."
+
+#: ../../../contact.php:36
+msgid "Dirección"
+msgstr "Address"
+
+#: ../../../contact.php:37
+msgid "Calle Alejandro Rodriguez, 32"
+msgstr "Calle Alejandro Rodriguez, 32"
+
+#: ../../../contact.php:38
+msgid "28039 Madrid"
+msgstr "28039 Madrid"
+
+#: ../../../contact.php:39
+msgid "Teléfono"
+msgstr "Phone number"
+
+#: ../../../contact.php:41
+msgid "Correo electrónico"
+msgstr "Email"
+
+#: ../../../footer.php:4
+msgid "© Fundaseth, S.L. 2014"
+msgstr "© Fundaseth, S.L. 2014"
+
+#: ../../../footer.php:7
+msgid "c/ Alejandro Rodríguez, 32. 28039 Madrid. Tel.: 913981628"
+msgstr "c/ Alejandro Rodríguez, 32. 28039 Madrid. Tel.: 913981628"
+
+#: ../../../fundaseth.php:14
+msgid "¿Quiénes somos?"
+msgstr "About Fundaseth"
+
+#: ../../../fundaseth.php:18
+msgid ""
+"Somos profesionales de diferentes ámbitos del diseño, el marketing, la "
+"Comunicación, el derecho, la docencia, el sector financiero e inmobiliario y "
+"también somos supervivientes de cáncer. Nuestra experiencia profesional y "
+"personal nos ha enseñado a dar lo mejor de nosotros mismos en cada trabajo."
+msgstr ""
+"We are professionals from different fields: design, marketing, "
+"communication, law, teaching, finance and real estate. As well as being "
+"cancer survivors. Our professional and personal experience has taught us to "
+"give the best of ourselves in each job."
+
+#: ../../../fundaseth.php:19
+msgid ""
+"Aportamos nuestro granito de arena favoreciendo la integración laboral de "
+"los pacientes con cáncer y apoyando iniciativas que buscan mejorar su "
+"calidad de vida."
+msgstr ""
+"We do our part, favoring the employment of cancer patients and supporting "
+"initiatives that seek to improve their quality of life."
+
+#: ../../../fundaseth.php:20
+msgid ""
+"Nuestra meta no solo es ser la primera Agencia de Servicios en España sino "
+"la más eficaz, manteniendo un equipo profesional integrado, preparado para "
+"encarar los retos que plantea la crisis al sector terciario y capaz de "
+"llevar a cabo proyectos rentables pero muy creativos. Somos flexibles a los "
+"cambios del sector y realizaremos los ajustes necesarios en cada momento y "
+"respecto a cada cliente, que será tratado de forma individual y "
+"personalizada."
+msgstr ""
+"Our goal is not only to be the first service agency in Spain, but also the "
+"most effective, while keeping a team of professionals prepared to face the "
+"challenges set by the tertiary sector crisis, as well as carry out "
+"profitable and creative projects. We adapt to changes in the sector and find "
+"the adjustments necessary in each occasion and depending on the client, who "
+"will be treated in the most personal and individual of ways."
+
+#: ../../../fundaseth.php:29
+msgid "Misión y Visión"
+msgstr "Mission & Vission"
+
+#: ../../../fundaseth.php:30
+msgid ""
+"Promover el negocio de nuestros clientes como propio, aportando soluciones "
+"que generen valor añadido."
+msgstr ""
+"To promote the business of our customers as our own, providing solutions "
+"that generate added value."
+
+#: ../../../fundaseth.php:31
+msgid "Ser parte esencial de sus planes estratégicos."
+msgstr "To be an essential part of your strategic planning. "
+
+#: ../../../fundaseth.php:37
+msgid "Costes y Beneficios"
+msgstr "Costs & Benefits"
+
+#: ../../../fundaseth.php:38
+msgid ""
+"Tenemos muy presente la necesidad de nuestros clientes de reducir costes, "
+"optimizar recursos y minimizar el tiempo de cobro de sus trabajos."
+msgstr ""
+"We are aware of the need of our clients  to reduce costs, optimize resources "
+"and minimize the time of collection of their works."
+
+#: ../../../fundaseth.php:39
+msgid ""
+"Apostamos por una atención de 360º, creativa, eficaz que ofrezca soluciones "
+"originales, efectivas y adecuadas a su empresa u organización."
+msgstr ""
+"We strive to provide a more effective and creative attention, offering "
+"original solutions that adapt to your business or organization."
+
+#: ../../../fundaseth.php:40
+msgid "Para ello nos metemos en su piel y hacemos de su objetivo el nuestro."
+msgstr ""
+"To accomplish this, we get under your skin and make of your objective our "
+"own."
+
+#: ../../../fundaseth.php:46
+msgid "Método"
+msgstr "Method"
+
+#: ../../../fundaseth.php:47
+msgid ""
+"Trabajamos codo a codo con nuestros clientes, grandes, medianas, pequeñas "
+"empresas o autónomos, entendiendo sus necesidades y maximizando sus recursos."
+msgstr ""
+"We work closely with our clients. Large, medium, small businesses or "
+"freelance, understanding their needs and maximizing their resources."
+
+#: ../../../fundaseth.php:48
+msgid ""
+"Ponemos a disposición de nuestros clientes un equipo multidisciplinar que "
+"centrará su trabajo en ayudarles a rentabilizar su esfuerzo, permitiéndoles "
+"concentrarse en su negocio."
+msgstr ""
+"We offer our clients a multidisciplinary team that will focus its work on "
+"helping them monetize their efforts, allowing them to concentrate on their "
+"business."
+
+#: ../../../fundaseth.php:49
+msgid ""
+"Ello requiere un profundo conocimiento de los servicios ofrecidos y una "
+"enorme capacidad de empatía con los directivos o empresarios en la gestión "
+"de sus recursos."
+msgstr ""
+"This requires a thorough understanding of the services offered and an "
+"enormous capacity for empathy with the directors or employers in the "
+"management of their resources."
+
+#: ../../../header.php:133
+msgid "English"
+msgstr "English"
+
+#: ../../../header.php:134
+msgid "Español"
+msgstr "Español"
+
+#: ../../../header.php:140
+msgid "fundaseth"
+msgstr "fundaseth"
+
+#: ../../../header.php:141
+msgid "servicios"
+msgstr "services"
+
+#: ../../../header.php:142
+msgid "valor social"
+msgstr "social value"
+
+#: ../../../header.php:143
+msgid "contacto"
+msgstr "contact"
+
+#: ../../../index.php:11
+msgid "Organizamos viajes diferentes"
+msgstr "We organize unique travels"
+
+#: ../../../index.php:12
+msgid "Construya una mejor experiencia digital"
+msgstr "Build a better digital experience"
+
+#: ../../../index.php:13
+msgid "Somos expertos en la producción de eventos"
+msgstr "We are specialists in the production of events"
+
+#: ../../../index.php:14
+msgid "Un espacio que aporta valor añadido"
+msgstr "A space that brings added value"
+
+#: ../../../index.php:27
+msgid ""
+"Hacemos de su objetivo, <span style=\"color: #F1C40F;\">el nuestro</span>"
+msgstr ""
+"We make of your objectives, <span style=\"color: #F1C40F;\">our own</span>"
+
+#: ../../../index.php:30
+msgid ""
+"Somos profesionales de diferentes ámbitos del diseño, el marketing, la "
+"comunicación, el derecho, la docencia, el sector financiero e inmobiliario y "
+"también somos supervivientes de cáncer."
+msgstr ""
+"We are professionals from different fields: design, marketing, "
+"communication, law, teaching, finance and real estate. As well as being "
+"cancer survivors."
+
+#: ../../../index.php:31
+msgid ""
+"Nuestra experiencia profesional y personal nos ha enseñado a dar lo mejor de "
+"nosotros mismos en cada trabajo."
+msgstr ""
+"Our professional and personal experience has taught us to give the best of "
+"ourselves in each job."
+
+#: ../../../lib/examples/pigs_dropin.php:77
+msgid ""
+"This is how the story goes.\n"
+"\n"
+msgstr ""
+"This is how the story goes.\n"
+"\n"
+
+#: ../../../services.php:13
+msgid "Servicios"
+msgstr "Services"
+
+#: ../../../services.php:17
+msgid "Cada proyecto es tan variado como los clientes detras de ellos."
+msgstr "Each proyect is as different as the clients behind them."
+
+#: ../../../services.php:21 ../../../services.php:96
+msgid "Diseño y Desarrollo Web"
+msgstr "Web Design and Development"
+
+#: ../../../services.php:22
+msgid ""
+"Construya una mejor experiencia digital con nosotros. Llevamos pasión por la "
+"estrategia, diseño y desarrollo web, y de medios sociales."
+msgstr ""
+"Build a better digital experience with us. We have passion for strategy, "
+"design and web development and social media."
+
+#: ../../../services.php:24
+msgid ""
+"Como cliente, usted quiere estar seguro de que entendemos su idea, y que el "
+"resultado final cumplirá con sus requisitos. Nuestro equipo le inspirará "
+"confianza, y le permitirá hablar directamente con las personas que hacen el "
+"trabajo. De esta forma, usted puede seguir su proyecto en cada paso del "
+"camino."
+msgstr ""
+"As a customer you want to be sure we understand your idea, and that the end "
+"result will meet your requirements. Our team will inspire confidence, and "
+"allow you to talk directly to people who do the work. This way you can track "
+"your project every step of the way."
+
+#: ../../../services.php:26
+msgid ""
+"Sean cuales sean sus metas de medios digitales, podemos ayudar a traerlos a "
+"la vida. Nuestro equipo tiene experiencia de trabajo en una amplia gama de "
+"proyectos. Trabajamos con las marcas, asociaciones industriales, la creación "
+"de empresas, agencias de relaciones públicas, pequeñas empresas y "
+"organizaciones sin fines de lucro."
+msgstr ""
+"No matter what your goals are, we can help bring them to life. Our team has "
+"experience working in a wide range of projects. We work with brands, "
+"industry associations, building companies, PR agencies, small businesses and "
+"nonprofit organizations."
+
+#: ../../../services.php:30
+msgid "Coworking: Fundawork"
+msgstr "Coworking: Fundawork"
+
+#: ../../../services.php:31
+msgid ""
+"Fundaseth se ha decidido a crear este espacio de trabajo para poder ofrecer "
+"a sus clientes, pequeñas empresa, autónomos y asociaciones, un lugar donde "
+"realizar su negocio o labor con unos costes muy asequibles y sin generar "
+"cargas de permanencia."
+msgstr ""
+"Fundaseth has decided to create this coworking to provide customers, small "
+"business, sole traders and partnerships, a place to hold your business or "
+"work with affordable costs."
+
+#: ../../../services.php:33
+msgid ""
+"Se trata además de un espacio que aporta valor añadido a las personas "
+"instaladas, mediante la generación de sinergias profesionales."
+msgstr ""
+"It is also a space that adds value to those installed by generating "
+"professional synergies."
+
+#: ../../../services.php:35
+msgid ""
+"En el Coworking de Fundaseth tiene a su disposición un puesto fijo de "
+"trabajo, que incluye todo lo necesario para desenvolver su labor, un "
+"servicio de recepción de llamadas, wifi, sala de reuniones, zona de vending "
+"o cocina, impresoras, fotocopiadoras, fax, servicio de limpieza y todo ello "
+"en un edificio exclusivo de oficinas situado en el entorno de la Ciudad "
+"Universitaria y con una boca de metro prácticamente en la puerta."
+msgstr ""
+"In the Coworking of Fundaseth available to you is a fixed workplace, which "
+"includes everything needed to carry out your work, a call reception "
+"service , wifi, meeting room, vending area and kitchen, printers, "
+"photocopiers, fax, housekeeping and all in an exclusive office building "
+"located in the vicinity of the \"Ciudad Universitaria\" and a subway station "
+"practically on the doorstep."
+
+#: ../../../services.php:37
+msgid ""
+"El compromiso se realiza mes a mes, lo que supone no tener que asumir "
+"periodos largos de obligado cumplimiento que muchas veces nos hacen desistir "
+"del desarrollo de un negocio."
+msgstr ""
+"Commitment is monthly, which means not having to take on long mandatory "
+"periods that often means having to abandon the development of a business."
+
+#: ../../../services.php:39
+msgid ""
+"Y además, trabajando en el Coworking, podrás beneficiarte de los servicios "
+"de Fundaseth, Asesoría Jurídica, Gestoría, Contabilidad, Diseño Gráfico, "
+"Servicios 2.0, Páginas Web, Publicidad, Formación y Organización de Eventos "
+"y Congresos. Servicios que para nuestros coworkers emprendedores, tienen "
+"precios muy ajustados."
+msgstr ""
+"In addition, working at Fundawork, you can benefit from all our services: "
+"Management, Accounting, Graphic Design Services 2.0, Websites, Advertising, "
+"Training and Event and Conference. Services for our coworkers have very "
+"competitive prices."
+
+#: ../../../services.php:41
+msgid ""
+"La zona de vending es idónea para conocerse, relacionarse y generar "
+"sinergias entre profesionales, pero fundamentalmente supone un lugar "
+"tranquilo para tomar un café, desconectar unos minutos y prepararse para "
+"volver al trabajo."
+msgstr ""
+"The vending area is ideal to meet, interact and create synergies among "
+"professionals, but it can also be a quiet place for coffee. Disconnect few "
+"minutes and prepare to return to work."
+
+#: ../../../services.php:44 ../../../services.php:108
+msgid "Eventos"
+msgstr "Events"
+
+#: ../../../services.php:45
+msgid ""
+"Somos expertos en la producción de eventos, organizamos pequeñas reuniones, "
+"actividades en la calle, medianas conferencias, cursos formativos o "
+"multitudinarios congresos con participación de varios miles de personas. Y "
+"todo ello tanto a nivel nacional como internacional."
+msgstr ""
+"We are experts in producing events, we organize small meetings, street "
+"activities, medium conferences, training courses or conferences involving "
+"several thousands. And all this both nationally and internationally."
+
+#: ../../../services.php:47
+msgid ""
+"Utilizamos herramientas tecnológicas más innovadoras adaptándolas a las "
+"necesidades de nuestros clientes para garantizarles la máxima eficiencia y "
+"control. En este sentido hemos sido pioneros en la realización de "
+"webinarios, que permiten una mayor participación en cursos o conferencias."
+msgstr ""
+"We use innovative technological tools adapted to the needs of our clients to "
+"guarantee maximum efficiency and control. In this sense we have been "
+"pioneers in conducting webinars, which allow greater participation in "
+"courses or conferences."
+
+#: ../../../services.php:49
+msgid ""
+"Para cada actividad que encaramos, diseñamos un Plan General comprensivo de "
+"los parámetros básicos de la actividad."
+msgstr ""
+"For each activity we take on, we design a comprehensive General Plan of the "
+"basic parameters of the activity."
+
+#: ../../../services.php:52 ../../../services.php:156
+msgid "Gestión del lujo"
+msgstr "Luxury management"
+
+#: ../../../services.php:53
+msgid ""
+"Fundaseth eleva a la categoría del lujo cualquier actividad cotidiana. Todo "
+"tiene que ser perfecto y para ello nos convertimos en un escrupuloso "
+"mayordomo siempre pendiente y leal, un cuidadoso conductor que tendrá a "
+"punto el coche y esperará paciente, un minucioso jefe de mantenimiento que "
+"acondicionará los espacios para cada ocasión, la amiga o amigo modelo para "
+"salir de compras, el conocido que consigue esa codiciosa entrada a la final "
+"o concierto y la secretaria fiel a la que encargar viajes, cenas, regalos y "
+"cualquier capricho que pueda tener."
+msgstr ""
+"Fundaseth elevates any daily activity to a level of luxury. Everything has "
+"to be perfect and to do this we become a scrupulous, attentive and loyal "
+"butler. A careful driver that will take care of the car and wait patiently, "
+"a careful maintenance chief who will condition spaces for every occasion, a "
+"friend to go shopping with, an acquaintance that will get you that prized "
+"ticket to the final or that concert and a faithful secretary to manage the "
+"trips, dinners, gifts and any whim you may have."
+
+#: ../../../services.php:55
+msgid ""
+"Agasajar a un cliente con elegancia puede ser lo que distinga a su empresa. "
+"Fundaseth examina minuciosamente al destinatario y diseña el regalo más "
+"apropiado para cada persona y ocasión."
+msgstr ""
+"To entertain a client with elegance can be what distinguishes your company. "
+"Fundaseth thoroughly examines the recipient and designs the most appropriate "
+"for each person and occasion."
+
+#: ../../../services.php:57
+msgid ""
+"¿Quiere sorprender a sus amigos o clientes con una cena especial en un "
+"entorno único? Fundaseth le propone espacios ayudándole a generar la "
+"atmosfera y el ambiente deseado. Cuidaremos hasta el último detalle, ese que "
+"hace que su cita sea un éxito."
+msgstr ""
+"Want to surprise your friends or customers with a special dinner in a unique "
+"setting? Fundaseth offers spaces helping create the atmosphere and the "
+"desired ambience. We take care of every detail, making your appointment is a "
+"success."
+
+#: ../../../services.php:59
+msgid ""
+"¿Desea cambiar su imagen para conseguir un mayor éxito social o profesional? "
+"Puede ser mucho más fácil de lo que imagina. Usted puede proyectar salud, "
+"bienestar, elegancia, sabiduría, bondad… para ello debe gestionar su actitud "
+"y fundamentalmente su apariencia exterior. Fundaseth puede guiarle en el "
+"cambio, consiguiendo el reflejo exacto de la imagen que desea mostrar."
+msgstr ""
+"Do you wish to change your image in order to have a better success socially "
+"or professionally? It can be much easier than you think. You can project "
+"health, wellness, elegance, wisdom, goodness... In order to achieve this, "
+"you must manage your attitude and outward appearance. Fundaseth can guide "
+"you in changing, getting accurate image to display."
+
+#: ../../../services.php:61
+msgid ""
+"¿Necesita su empresa o vivienda particular adquirir ese toque de "
+"representatividad que solo consigue un experto? No es necesario gastar una "
+"fortuna para conseguir un ambiente elegante y funcional, ponemos a su "
+"disposición el ojo del profesional que evaluará el espacio y aportará "
+"recursos con resultados espectaculares."
+msgstr ""
+"Does your company or private home that special touch that only an expert can "
+"get? No need to spend a fortune to get a stylish and functional environment, "
+"we offer professional eye to evaluate the space and provide resources with "
+"spectacular results."
+
+#: ../../../services.php:63
+msgid ""
+"¿Ofrecerías a tus clientes un viaje formativo único en el que generar "
+"relaciones sólidas? Nada más efectivo para consolidar una relación de "
+"trabajo que alejarse del entorno profesional. Fundaseth puede organizar el "
+"curso adecuado en prestigiosas universidades de Europa o Estados Unidos, "
+"gestionar los desplazamientos y el alojamiento de los asistentes y proponer "
+"actividades de ocio complementarias."
+msgstr ""
+"Would you offer your customers a unique educational journey that generate "
+"strong relationships? Nothing more effective to consolidate a working "
+"relationship than to break away from the professional environment. Fundaseth "
+"can arrange the right course at prestigious universities in Europe or the "
+"US, manage travel and accommodation for participants and propose "
+"complementary leisure activities."
+
+#: ../../../services.php:66
+msgid "Secretaría técnica"
+msgstr "Technical secretariat"
+
+#: ../../../services.php:67
+msgid ""
+"Una empresa necesita contestar llamadas, gestionar clientes, diseñar "
+"proyectos, realizar presentaciones, llevar al día documentos oficiales, "
+"emitir y recibir facturas, tener presencia en las redes… y para ello precisa "
+"contratar personas con diferentes perfiles, hacer una buena selección, "
+"buscar una oficina donde establecer su sede, adquirir mobiliario, "
+"ordenadores, impresoras, material de oficina… "
+msgstr ""
+"A company needs to answer calls, manage customers, design projects, "
+"presentations, take up official documents, send and receive bills, have a "
+"presence on the web. It also need to hire the correct people for specific "
+"profiles, find an office to set up its headquarters, purchase furniture, "
+"computers, printers, office..."
+
+#: ../../../services.php:69
+msgid "Fundaseth es la solución alternativa. "
+msgstr "Fundaseth is the alternative solution."
+
+#: ../../../services.php:71
+msgid ""
+"Nos encargamos de contestar sus llamadas, con simpatía y educación. Como su "
+"asistente personal, haremos un filtrado de mensajes y tendrá siempre "
+"información exacta de quien desea contactar con usted y los motivos de su "
+"llamada. En su nombre gestionaremos citas y recibiremos o enviaremos cartas "
+"y paquetes. Nos coordinaremos para llevar su agenda al día, añadiendo a la "
+"base de datos contactos y actas de reunión. Atenderemos a sus visitas con "
+"amabilidad, reservando la sala de reuniones, preparando el material "
+"adecuado, ofreciendo café o agua…"
+msgstr ""
+"We handle your phone calls, with sympathy and education. As your personal "
+"assistant, we will filter messages and will always have accurate information "
+"on who wishes to contact you and the reasons for their call. We will manage "
+"appointments and receive or send letters and packages on your behalf. We "
+"will arrange to take your daily schedule, adding to the contact data and "
+"meeting minutes. Attend to your visits with kindness, reserving meeting "
+"room, preparing appropriate material, offering coffee or water..."
+
+#: ../../../services.php:73
+msgid ""
+"Redactaremos su correo, ordinario o email, le ayudaremos a crear "
+"presentaciones, newsletters, propuestas individualizadas y presupuestos. "
+"Somos expertos en comunicación empresarial escrita, utilizamos el protocolo "
+"adecuado a cada cliente y ocasión y mostramos de forma atractiva la "
+"información que usted necesita transmitir."
+msgstr ""
+"We will write your mail, post or email, we will help you create "
+"presentations, newsletters, proposals and individualized budgets. We are "
+"experts in written business communication, we use the appropriate protocol "
+"to each customer and occasion and show in an attractive way information you "
+"need to convey."
+
+#: ../../../services.php:75
+msgid ""
+"Gestionaremos su facturación. Recibirá facturas que nosotros archivaremos "
+"para su correcta liquidación trimestral y deberá emitir facturas a sus "
+"clientes, llevando al día sus obligaciones fiscales."
+msgstr ""
+"We'll handle the billing. You will receive invoices that we will file for "
+"proper quarterly settlement and shall issue invoices to your customers, "
+"bringing up their tax obligations."
+
+#: ../../../services.php:77
+msgid ""
+"Mantendremos al día su página web y actualizaremos su aparición en redes "
+"sociales, redactando blogs o entradas de Facebook, mensajes de Twitter o "
+"debates en Linkedin."
+msgstr ""
+"We will update your website and its appearance in social media, writing "
+"blogs or Facebook entries, tweets or debates on Linkedin."
+
+#: ../../../services.php:80 ../../../services.php:120
+msgid "Viajes"
+msgstr "Travel"
+
+#: ../../../services.php:81
+msgid ""
+"Fundaseth no es una agencia de viajes, no tiene una base de datos con "
+"millones de vuelos, no opera con una infinidad de hoteles repartidos por "
+"todo el mundo, no organiza viajes en serie para personas sin más identidad "
+"que un dni."
+msgstr ""
+"Fundaseth is not a travel agency. We don't have a database with millions of "
+"flights, or operate with countless hotels throughout the world. We don't "
+"mass organize trips for people who are just an ID."
+
+#: ../../../services.php:83
+msgid ""
+"En Fundaseth somos artesanos del ocio, buscamos los recorridos y  lugares "
+"apropiados al momento, persona o grupo. Escudriñamos el paisaje y como si de "
+"un terrón de arcilla se tratara, los sopesamos bien y lo lanzamos a la rueda "
+"del torno para modelar una nueva aventura. Humedecemos las manos y "
+"comprimimos la arcilla, urdiendo el hospedaje perfecto para la ocasión. El "
+"torno sigue girando, introducimos suavemente el pulgar y empezamos a diseñar "
+"actividades sorprendentes, el proceso es laborioso pero merece la pena. "
+"Apretamos formando base y paredes, con ambas manos levantamos la marga y "
+"estrechamos el cuello. Una vez más hemos diseñado la excursión que se ajusta "
+"al viajero pero la obra no está terminada, la perfección radica en los "
+"últimos detalles."
+msgstr ""
+"At Fundaseth we are leisure craftsmen, we look for the ideal tours and "
+"venues for the occasion, person or group. We scrutinize the landscape and, "
+"like it were a clod of clay, we model a new adventure out of it. We moisten "
+"our hands and compress the clay, concocting the perfect venue for the "
+"occasion. With the lathe still spinning, using our thumbs we gently begin "
+"designing amazing activities, a process that is time consuming but worth it. "
+"We press to form base and walls, with both hands we lift the clay and "
+"stretch it out. Once again, we have designed a tour that fits the traveler "
+"perfectly. However, our masterpiece is not yet finished, perfection lies in "
+"the details."
+
+#: ../../../services.php:85
+msgid ""
+"Fundaseth proyecta viajes por encargo, adecuando cada pormenor a las "
+"circunstancias del grupo. Somos artistas o artesanos del ocio, llevamos "
+"muchos años haciendo posible que personas con salud delicada se atrevan a "
+"recorrer tierras lejanas cumpliendo viejos sueños. Analizamos el grupo y "
+"como el buen alfarero, potenciamos su cohesión evitando que la pieza se "
+"abocarde."
+msgstr ""
+"Fundaseth custom-tailors travels, adjusting every detail and circumstance of "
+"the occasion. We are artist or craftsmen of leisure, we have spent many "
+"years making possible that people with frail health conditions dare to "
+"explore distant lands, fulfulling old dreams. We analyze the group, and as a "
+"good potter, we enhance cohesion avoiding alterations with our piece."
+
+#: ../../../services.php:87
+msgid ""
+"En Fundaseth sabemos que viajar es disfrutar, conocer o reconocer nuevos "
+"parajes, olvidarse del tiempo, transitar por ciudades extrañas, explorar "
+"monumentos, visitar viejas iglesias, vagar por montes, navegar… Sin prisa, "
+"eligiendo la soledad del momento pero siempre protegido y cuidado."
+msgstr ""
+"At Fundaseth we know that travel is all about enjoying yourself, getting to "
+"know new places, forgetting about time, touring through new cities, "
+"exploring monuments, visiting old churches, wandering through fields, "
+"sailing... Without haste. Choosing the solitude of the moment, but always "
+"protected and cared for."
+
+#: ../../../services.php:89
+msgid ""
+"Hemos recorrido España y en cada ocasión la belleza de sus pueblos nos ha "
+"conquistado. Somos afortunados, nuestro país tiene una gran cultura, ahí, al "
+"alcance de la mano. Y a tiro piedra la vieja Europa, imponente y pequeña a "
+"la vez.  Fundaseth investiga para ti cada rincón y te propone optimizar tu "
+"tiempo libre. Con amigos, con tu pareja, a tu aire, en hoteles de lujo, en "
+"albergues, en zonas rurales, en ciudades, en avión, en autobús… Fundaseth "
+"adapta el viaje al grupo, tu eliges el destino y nosotros te llevamos la "
+"maleta."
+msgstr ""
+"We have toured Spain, and in every occasion the beauty of its towns has "
+"enamored us. We are lucky, our country has a great culture, right there, "
+"within reach. And a stone's throw away you can find the old Europe, imponent "
+"and small at the same time. Fundaseth researches for you every corner and "
+"comes back with proposals to maximise your leisure time. Whether you wish to "
+"travel with friends, with your couple or by yourself, in luxury hotels or in "
+"hostels, in rural areas or in cities, by plane or by bus... Fundaseth adapts "
+"the adventure to the people, you choose the destination and we will get you "
+"there."
+
+#: ../../../services.php:97
+msgid ""
+"Nuestro enfoque: Ayudarle a llevar sus historias a la vida a través del "
+"diseño."
+msgstr "Our focus: Help you bring your stories to life through design."
+
+#: ../../../services.php:109
+msgid ""
+"Planificamos cada mínimo detalle y abordamos el evento de manera integral."
+msgstr "We plan to the very last detail and take on events holistically."
+
+#: ../../../services.php:121
+msgid ""
+"En Fundaseth somos artesanos del ocio, buscamos los recorridos y  lugares "
+"apropiados al momento, persona o grupo."
+msgstr ""
+"At Fundaseth we are leisure craftsmen, we look for the ideal tours and "
+"venues for the occasion, person or group. "
+
+#: ../../../services.php:132
+msgid "Coworking"
+msgstr "Coworking"
+
+#: ../../../services.php:133
+msgid "Un centro de coworking es un espacio destinado para emprendedores."
+msgstr "A coworking center is a space intended for entrepreneurs."
+
+#: ../../../services.php:144
+msgid "Secretaría"
+msgstr "Secretariat"
+
+#: ../../../services.php:145
+msgid ""
+"Somos expertos en comunicación empresarial escrita, utilizamos el protocolo "
+"adecuado a cada cliente y ocasión y mostramos de forma atractiva la "
+"información que usted necesita transmitir."
+msgstr ""
+"We are experts in written business communication, we use the appropriate "
+"protocol to each customer and occasion and show the information in the "
+"perfect way you need to convey."
+
+#: ../../../services.php:157
+msgid ""
+"Fundaseth eleva a la categoría del lujo cualquier actividad cotidiana. Todo "
+"tiene que ser perfecto y para ello nos convertimos en un escrupuloso "
+"mayordomo siempre pendiente y leal."
+msgstr ""
+"Fundaseth elevates any daily activity to a level of luxury. Everything has "
+"to be perfect and to do this we become a scrupulous, attentive and loyal "
+"butler."
+
+#: ../../../social-value.php:14
+msgid "Valor Social"
+msgstr "Social Value"
+
+#: ../../../social-value.php:18
+#, php-format
+msgid ""
+"En Fundaseth promovemos la integración laboral de los pacientes y sus "
+"cuidadores y empezamos por nosotros mismos: somos un equipo en el que el "
+"80% de nuestros miembros son supervivientes de cáncer."
+msgstr ""
+"At Fundaseth we promote labor integration for the patients and their "
+"caretakers, starting with ourselves: we are a team in which 80% of our "
+"members are cancer survivors"
+
+#: ../../../social-value.php:19
+msgid "Usted también puede aportar su granito de arena."
+msgstr "You can also contribute."
+
+#: ../../../social-value.php:27
+msgid "Constituida el 14 de julio de 2010."
+msgstr "Established on July 14, 2010."
+
+#: ../../../social-value.php:28
+msgid ""
+"Es una entidad de naturaleza fundacional, sin ánimo de lucro, creada para la "
+"ayuda a pacientes oncológicos, apoyo a las asociaciones de afectados por "
+"cáncer y fomento del progreso cultural y social."
+msgstr ""
+"It is a nonprofit institution, created to help cancer patients, support "
+"associations of people affected by cancer and promote cultural and social "
+"progress."
+
+#: ../../../social-value.php:29
+msgid ""
+"Tiene carácter benéfico asistencial y fue constituida por razones de "
+"solidaridad con todas las personas afectadas por cáncer."
+msgstr ""
+"Of charitable character, was constituted for reasons of solidarity with all "
+"the people affected by cancer."
+
+#: ../../../social-value.php:30
+msgid ""
+"El fin principal de la Fundación es pues la ayuda a los pacientes "
+"oncológicos, pero además, la Fundación fomenta el progreso y desarrollo "
+"sostenible para la mejora de la calidad de vida de los ciudadanos."
+msgstr ""
+"The main purpose of the Foundation is helping cancer patients, but in "
+"addition, the Foundation promotes progress and sustainable development to "
+"improve the quality of life of citizens."
+
+#: ../../../social-value.php:31
+msgid ""
+"En este sentido, promueve los servicios y la atención a personas con "
+"dependencia o en riesgo de exclusión por razones físicas, psíquicas, "
+"sociales, culturales o económicas y fomenta la educación y formación de los "
+"ciudadanos."
+msgstr ""
+"In this sense, promotes the services and attention to dependent persons or "
+"at risk of exclusion for physical, psychological, social, cultural or "
+"economic reasons and promotes education and training of citizens."
+
+#: ../../../social-value.php:32
+msgid ""
+"La Fundación Carlos Garrido Garrido ha colaborado desde su constitución con "
+"GEPAC, Grupo Español de Pacientescon Cáncer y con varias asociaciones que "
+"componen el grupo."
+msgstr ""
+"The Carlos Garrido Garrido Foundation since its inception has worked in "
+"conjunction with GEPAC, the Spanish Group of Cancer Patients, as well as "
+"other associations that make up the group."
+
+#~ msgid "Misión"
+#~ msgstr "Mission"
+
+#~ msgid "Fundaseth - Inicio"
+#~ msgstr "Fundaseth - Home"

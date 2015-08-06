@@ -1,0 +1,1 @@
+var galleriadatajson='[{"image": "images/01_small.jpg", "description": "description", "thumb": "images/01.jpg", "title": "title"},{"image": "images/02_small.jpg", "description": "description", "thumb": "images/02.jpg", "title": "title"}]';

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://openajax.org/metadata" spec="1.0" id="tag:adobe.com,2012-03:edge:oam:compid:mapadelcamino" name="generalMap" version="1">
+
+  <description type="text/html"><![CDATA[Widget Exported from Adobe Edge (V1.DW.Edge)]]></description>
+  <category name="Adobe Edge Animation"/>
+
+  <remarks>Compatible with: InDesign CC, Dreamweaver CC, Muse</remarks>
+
+  <icon src="transparent.png" width="581" height="250" />
+
+  <require type="other" src="generalMap.html" />
+  <require type="other" src="images/arzua.svg" />
+  <require type="other" src="images/generalMap.svg" />
+  <require type="other" src="images/palas.svg" />
+  <require type="other" src="images/Pasted.svg" />
+  <require type="other" src="images/Pasted2.svg" />
+  <require type="other" src="images/porto.svg" />
+  <require type="other" src="images/sarria.svg" />
+
+  <require type="javascript" src="generalMap_edge.js" />
+
+  <require type="image" src="transparent.png" />
+
+  <require type="folder" src="images" />
+
+
+  <content><![CDATA[
+    <div class="mapadelcamino"></div>
+  ]]></content>
+   
+  <properties name="Properties">
+    <property name="default-width" defaultValue="581" hidden="true"/>
+    <property name="default-height" defaultValue="250" hidden="true"/>
+    <property name="resizable" defaultValue="true" hidden="true"/>				
+		<property name="centering" defaultValue="none" hidden="true"/>				
+		<property name="scaling" defaultValue="both" hidden="true"/>
+    <property name="html-page" defaultValue="generalMap.html" hidden="true"/>
+  </properties>
+
+</widget>

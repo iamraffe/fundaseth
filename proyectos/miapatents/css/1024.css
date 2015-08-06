@@ -1,0 +1,110 @@
+/*  MAKE LAYOUT RESPONSIVE at 1024px FOR SMALLER SCREENS ================================================================ */
+
+
+		header {
+			width: 100%; /* 960px / 1024px */
+			height: 95px;
+		}
+		.inner{
+			width: 100%;
+		}
+			img#logo{
+				width: 15%;
+				margin-top: 15px;
+				float:left;
+				margin-left: 25px;
+			}
+				.wrapper-dropdown-3{
+					right: 0%;
+					width: 15%;
+					margin-top: 3%;
+				}
+				
+			nav{
+				margin-left: 5%;
+				min-width: 75%;
+				width: auto;
+				float: left;
+				display: block;
+			}
+				
+			nav ul{
+				padding-top: 0%;
+			}
+			#langChoose ul li{ width: 100%;}
+				nav ul li{ 
+					
+					float:left;
+					cursor: pointer;
+					width: 16.5%;
+					width: calc(100% / 6);
+					text-align: center; 
+					margin: 0 !important;
+					padding: 0;
+					
+				}	
+
+					nav ul li a{
+						color: #808080;
+						font-size: 1em;
+						vertical-align: bottom;
+						padding-top: 37.5px;
+					}
+		
+		.yellowContainer{
+			width: 89%;
+			padding: 50px;
+			padding-top: 115px;
+			display: block;
+			margin: 0 auto;
+		}
+		.yellowContainer p{
+			font-size: 1em;
+		}
+		
+		#maincontent{
+					width: 100%; /* 960px / 1024px */
+		}
+		
+		.maincontent{
+			width: 100%; /* 960px / 1024px */
+		}
+		
+		
+		footer {
+			width: 93.75%; /* 960px / 1024px */
+
+		}
+		
+		
+.section{
+	width: 97.5%;
+}		
+.slideme{
+	max-height: 486px;
+}
+/*
+==================================================================
+
+
+INDEX 
+
+
+==================================================================
+*/
+
+.teaser{
+	font-size: 1.15em;
+	margin-right: 0 !important;
+	width: calc(83%/3);
+}
+
+.introText img{
+	width: 117.5%;
+	margin-top: 35px;
+}
+
+.white-popup{
+	max-width: 85%;
+}
+.bio p{padding-left: 25px;}

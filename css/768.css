@@ -1,0 +1,86 @@
+/*  MAKE LAYOUT RESPONSIVE at 768px FOR IPAD PORTRAIT ================================================================ */
+
+
+	
+
+		header {
+			height: 125px;
+			width: 100%; /* 450px / 480px */
+		}
+		.inner{
+			width: 100%;
+		}
+			img#logo{
+				float: none;
+				display:block;
+				max-width: 250px;
+				margin: 0 auto;
+				margin-top: 15px;
+			}
+			nav{
+				float: none;
+				width:100%;
+			}
+			nav ul{
+				padding-top: 2.5%;
+				width: 100%;
+			}
+				nav ul li{
+					width: 20%;
+					width: calc(100%/5);
+				}
+		#maincontent{
+			width: 93.75%; /* 720px / 768px */
+		}
+
+		
+		.maincontent{
+			width: 93.75%; /* 720px / 768px */
+		}
+		
+		.grid li{
+			width: 40%;
+		}
+	
+		form{
+			padding-left: 2.5%;
+		}
+		input, textarea{
+			width: 90%;
+		}
+		#message{
+			width: 100%;
+		}
+		button{
+			width: 50%;
+		}
+		footer {
+			width: 93.75%; /* 720px / 768px */
+		}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 50px;
+  width: auto;
+  max-width: 95%;
+  margin: 5px auto;
+  max-height: 50%;
+  font-size: 85%;
+}
+.white-popup h4{
+	background:#F1C40F; color: white !important;  width: 60%; display: block; margin: 0 auto; padding: 2.5%; text-align:center; font-size: 175%;
+	margin-bottom: 50px;
+	margin-top:-50px;
+}	
+
+#youtubeVid{
+	width: 95%; display: block; margin: 0 auto; float: none;
+}
+
+#santiagoLink{
+	width: 95%; display: block; margin: 0 auto; float: none;
+}
+.sectionTitle h2{width:75%;}
+
+.wrapper-dropdown-3{right: 5%;}

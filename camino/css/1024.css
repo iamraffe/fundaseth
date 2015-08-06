@@ -1,0 +1,174 @@
+/*  MAKE LAYOUT RESPONSIVE at 1024px FOR SMALLER SCREENS ================================================================ */
+
+
+		header {
+			width: 100%; /* 960px / 1024px */
+			height: 95px;
+		}
+		.inner{
+			width: 100%;
+		}
+			img#logo{
+				width: 15%;
+				margin-top: 27.5px;
+				float:left;
+				margin-left: 25px;
+			}
+				.wrapper-dropdown-3{
+					right: 0%;
+					width: 15%;
+					margin-top: 3%;
+				}
+				
+			nav{
+				margin-left: 5%;
+				min-width: 75%;
+				width: auto;
+				float: left;
+				display: block;
+			}
+				
+			nav ul{
+				padding-top: 0%;
+			}
+			#langChoose ul li{ width: 100%;}
+				nav ul li{ 
+					
+					float:left;
+					cursor: pointer;
+					width: 16.5%;
+					width: calc(100% / 6);
+					text-align: center; 
+					margin: 0 !important;
+					padding: 0;
+					
+				}	
+
+					nav ul li a{
+						color: #808080;
+						font-size: 90%;
+						vertical-align: bottom;
+					}
+		
+		.yellowContainer{
+			width: 89%;
+			padding: 50px;
+			padding-top: 115px;
+			display: block;
+			margin: 0 auto;
+		}
+		.yellowContainer p{
+			font-size: 1em;
+		}
+		
+		#maincontent{
+					width: 93.75%; /* 960px / 1024px */
+		}
+		
+		.maincontent{
+			width: 93.75%; /* 960px / 1024px */
+		}
+		
+		
+		footer {
+			width: 93.75%; /* 960px / 1024px */
+		}
+		
+/*
+==================================================================
+
+
+ITINERARY 
+
+
+==================================================================
+*/
+
+
+#daySelect{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+
+#daySelect ul{
+	display: block;
+	margin: 0 auto;
+	list-style: none;
+	width: auto;
+}
+
+#daySelect ul li{
+	display: inline-block;
+	width: 14.65%;
+	text-align: center;
+	width: calc(86.9% / 6);
+}
+.day{
+	border: 3.5px solid #2980b9;
+	background-color: #3498db;
+	padding: 5px;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 1.15em;
+	font-weight: bold;
+        -webkit-transition:  0.25s linear;
+        -moz-transition:  0.25s linear;
+        -ms-transition:  0.25s linear;
+        -o-transition:  0.25s linear;
+        transition:  0.25s linear;
+		overflow: hidden;
+}
+
+.day.active{
+	background-color: #f1c40f; color: white;
+	border: 3.5px solid #f39c12;
+}
+
+.day:hover{
+	background-color: #f1c40f; color: white;
+	border: 3.5px solid #f39c12;
+	
+	
+}
+.dayDescription p{
+	width: 90%;
+	display: block;
+	margin: 0 auto 10px!important;
+	font-size: 1.15em;
+}
+
+
+
+#day2Text, #day3Text, #day4Text, #day5Text, #day6Text {
+	display:none;
+}
+
+.dayText img{
+	width: 95%; margin: 0px auto; display: block;
+}
+
+.dayText h4{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width:100%; 
+	font-size: 1.5em; 
+	font-family:'Montserrat', sans-serif; 
+	letter-spacing: -1px; 
+	color: #F39C12; 
+	text-align: center;
+}
+
+.dayText h5{
+	width: 100%;
+	text-align: center;
+	color: #F39C12;
+	font-size: 1.25em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.dayDescription p{
+	font-size: 1.25em;
+}

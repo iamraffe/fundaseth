@@ -1,0 +1,402 @@
+html { 
+	height: 100%; 
+}
+body{
+	min-height: 100%;
+	color: #000; 
+	font-size: 12px; 
+	line-height: 18px; 
+	font-family: 'Open Sans'; 
+	background-color:transparent;
+	margin: 0 auto;
+
+}
+
+header {
+	height: 100px;
+	overflow:hidden;
+	margin: 0 auto;
+	width:1080px;
+}
+
+nav 
+{
+    clear:both;
+	position: absolute;
+	background-color:white;
+    top: 0;
+    left: 0;
+    right: 0;
+	font-weight:300;
+}
+nav img
+{
+	position: relative;
+	float:left;
+	left: 400px;
+	background-color: hsla(0,0%,100%,0.00);
+	top: 10px;;
+	width: 310px;
+	height: 55px;
+}
+
+nav ul
+{
+    position: relative;
+    /*right: 360px;*/
+	float:left;
+	left:750px;
+	top:15px;
+	list-style:none;
+}
+nav li{
+	display:inline;
+	margin-right: 40px;
+}
+
+#content{
+	overflow:hidden;
+	margin: 0 auto;
+	width:1080px;
+}
+#above{
+	position: relative;
+	height: 136px;
+	width: 600px;
+	overflow: hidden;
+	left: 105px;
+	top: 128px;
+	
+}
+#above h1{
+	position: relative;
+	color: #A01801;
+	text-align: left;
+	line-height: 46px;
+	font: 400 30px 'Sansita one', Georgia, serif;
+}
+.pink{
+	color:#f2ab17;
+	font: 400 35px 'Sansita one', Georgia, serif;
+	font-style:italic;
+}
+#grid{
+	/*visibility: hidden;*/
+	position: relative;
+	top: 124px;
+	left: 40px;
+	float:left;
+
+}
+#grid img{
+	float:left;
+}
+#grid .services{
+	position:relative;
+	float:left;
+	width:375px;
+	margin-top:-175px;
+	height:875px;
+}
+#below{
+	position: relative;
+	float:left;
+	width: 650px;
+	height: 500px;
+	/*overflow:hidden;*/
+	left: 75px;
+	margin-top: -350px;
+
+}
+#below p{
+	font-size: 18px;
+	line-height: 23px;
+	text-align:justify;
+	font-weight: 300;
+	color:black;
+	padding-right:20px;
+}
+.kwicks {
+	width: 350px;
+	height: 175px;	
+}
+
+.quienes, .services, .news, .empleo, .contacto{
+	cursor: pointer;
+}
+#grid > .quienes .tholder, #grid > .services .tholder, 
+#grid > .news .tholder, #grid > .empleo .tholder, 
+#grid > .contacto .tholder, #grid .services.kwicks .social .tholder, 
+#grid .services.kwicks .eventos .tholder, #grid .services.kwicks .web .tholder,
+#grid .services.kwicks .coworking .tholder{
+	width:175px;
+	height: 40px;
+	background-color:rgba(0,0,0);
+	background-color:rgba(0,0,0,0.5);
+}
+#grid > .quienes .tholder{
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+}
+#grid .services.kwicks .social .tholder{
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	transition:width 500 ease 2500;
+}
+#grid .services.kwicks .social .tholder:hover{
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width:350px;
+	transition:width 0.5s ease 0.15s;	
+}
+#grid .services.kwicks .eventos .tholder, #grid .services.kwicks .web .tholder,
+#grid .services.kwicks .coworking .tholder{
+	
+	transition:width 0.5s ease 0.15s;
+}
+#grid .services.kwicks .eventos .tholder:hover, #grid .services.kwicks .web .tholder:hover,
+#grid .services.kwicks .coworking .tholder:hover{
+	width:350px;
+	transition:width 0.5s ease 0.15s;
+}
+#grid > .quienes{
+	/*background-image:url(../images/quienes.png);*/
+	/*background-color: #FFB000;*/
+	background: #FFB000; /* Old browsers */
+	background: -moz-linear-gradient(left,  #FFB000 0%, #FF7900 100%); /* FF3.6+ */
+	/*background: -webkit-gradient(linear, left top, right top, color-stop(0%,#87e0fd), color-stop(40%,#53cbf1), color-stop(100%,#05abe0)); /* Chrome,Safari4+ */*/
+	background: -webkit-linear-gradient(left,  #FFB000 0%,# #FF7900 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #FFB000 0%, #FF7900 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #FFB000 0%, #FF7900 100%); /* IE10+ */
+	background: linear-gradient(to right,  #FFB000 0%, #FF7900 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFB000', endColorstr='#FF7900',GradientType=1 ); /* IE6-9 */
+
+	width:175px;
+	height:175px;
+	z-index:0;
+	background-position: left;
+	background-repeat: no-repeat;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#grid > .news{
+	/*background-image:url(../images/world.png);*/
+	/*background-color: #FF7900;*/
+	background: #FF7900; /* Old browsers */
+	background: -moz-linear-gradient(left,  #FF7900 0%, #FF5400 100%); /* FF3.6+ */
+	/*background: -webkit-gradient(linear, left top, right top, color-stop(0%,#87e0fd), color-stop(40%,#53cbf1), color-stop(100%,#05abe0)); /* Chrome,Safari4+ */*/
+	background: -webkit-linear-gradient(left,  #FF7900 0%,# #FF5400 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #FF7900 0%, #FF5400 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #FF7900 0%, #FF5400 100%); /* IE10+ */
+	background: linear-gradient(to right,  #FF7900 0%, #FF5400 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF7900', endColorstr='#FF5400',GradientType=1 ); /* IE6-9 */
+	width:175px;
+	height:175px;
+	z-index:0;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+#grid > .empleo{
+	/*background-image:url(../images/job.png);*/
+	/*background-color: #FF5400;*/
+	background: #FF5400; /* Old browsers */
+	background: -moz-linear-gradient(left,  #FF5400 0%, #FF4303 100%); /* FF3.6+ */
+	/*background: -webkit-gradient(linear, left top, right top, color-stop(0%,#87e0fd), color-stop(40%,#53cbf1), color-stop(100%,#05abe0)); /* Chrome,Safari4+ */*/
+	background: -webkit-linear-gradient(left,  #FF5400 0%,# #FF4303 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #FF5400 0%, #FF4303 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #FF5400 0%, #FF4303 100%); /* IE10+ */
+	background: linear-gradient(to right,  #FF5400 0%, #FF4303 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF5400', endColorstr='#FF4303',GradientType=1 ); /* IE6-9 */
+	width:175px;
+	height:175px;
+	z-index:0;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+#grid > .contacto{
+	/*background-image:url(../images/contact.png);*/
+	/*background-color: #FF4303;*/
+	background: #FF4303; /* Old browsers */
+	background: -moz-linear-gradient(left,  #FF4303 0%, #BD0004 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#FF4303), color-stop(100%,#BD0004)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #FF4303 0%, #BD0004 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #FF4303 0%, #BD0004 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #FF4303 0%, #BD0004 100%); /* IE10+ */
+	background: linear-gradient(to right,  #FF4303 0%, #BD0004 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF4303', endColorstr='#BD0004',GradientType=1 ); /* IE6-9 */
+	width:175px;
+	height:175px;
+	z-index:0;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+#grid .services.kwicks .social{
+	/*background-color: #D40500;*/
+	background: #D40500; /* Old browsers */
+	/*background: -moz-linear-gradient(top,  #D40500 0%, #BD0004 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(100%,#BD0004));
+	background: -webkit-linear-gradient(top,  #D40500 0%,#BD0004 100%); 
+	background: -o-linear-gradient(top,  #D40500 0%,#BD0004 100%); 
+	background: -ms-linear-gradient(top,  #D40500 0%,#BD0004 100%); 
+	background: linear-gradient(to bottom,  #D40500 0%,#BD0004 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D40500', endColorstr='#BD0004',GradientType=0 );*/
+
+	width:350px;
+	height:175px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+}
+#grid .services.kwicks .social .cover{
+	background: #D40500; /* Old browsers */
+	/*background: -moz-linear-gradient(top,  #D40500 0%, #BD0004 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(100%,#BD0004));
+	background: -webkit-linear-gradient(top,  #D40500 0%,#BD0004 100%); 
+	background: -o-linear-gradient(top,  #D40500 0%,#BD0004 100%); 
+	background: -ms-linear-gradient(top,  #D40500 0%,#BD0004 100%); 
+	background: linear-gradient(to bottom,  #D40500 0%,#BD0004 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D40500', endColorstr='#BD0004',GradientType=0 );*/
+	/*background-color: #D40500;*/
+	width:175px;
+	height:175px;
+	/*margin:20px;*/
+	text-align:center;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+}
+#grid .services.kwicks .eventos{
+	/*background-color: #BD0004;*/
+	background: #BD0004; /* Old browsers */
+/*	background: -moz-linear-gradient(top,  #BD0004 0%, #8F2600 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(100%,#8F2600)); 
+	background: -webkit-linear-gradient(top,  #BD0004 0%,#8F2600 100%);
+	background: -o-linear-gradient(top,  #BD0004 0%,#8F2600 100%); 
+	background: -ms-linear-gradient(top,  #BD0004 0%,#8F2600 100%);
+	background: linear-gradient(to bottom,  #BD0004 0%,#8F2600 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BD0004', endColorstr='#8F2600',GradientType=0 ); */
+	width:350px;
+	height:175px;
+}
+#grid .services.kwicks .eventos .cover{
+	/*background-color: #BD0004;*/
+	background: #BD0004; /* Old browsers */
+/*	background: -moz-linear-gradient(top,  #BD0004 0%, #8F2600 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(100%,#8F2600)); 
+	background: -webkit-linear-gradient(top,  #BD0004 0%,#8F2600 100%);
+	background: -o-linear-gradient(top,  #BD0004 0%,#8F2600 100%); 
+	background: -ms-linear-gradient(top,  #BD0004 0%,#8F2600 100%);
+	background: linear-gradient(to bottom,  #BD0004 0%,#8F2600 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BD0004', endColorstr='#8F2600',GradientType=0 ); */
+	width:175px;
+	height:175px;
+	/*margin:20px;*/
+	text-align:center;
+}
+#grid .services.kwicks .web{
+	background: #8F2600; /* Old browsers */
+/*	background: -moz-linear-gradient(top,  #8F2600 0%, #A2371E 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(100%,#A2371E));
+	background: -webkit-linear-gradient(top,  #8F2600 0%,#A2371E 100%); 
+	background: -o-linear-gradient(top,  #8F2600 0%,#A2371E 100%); 
+	background: -ms-linear-gradient(top,  #8F2600 0%,#A2371E 100%); 
+	background: linear-gradient(to bottom,  #8F2600 0%,#A2371E 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8F2600', endColorstr='#A2371E',GradientType=0 ); */
+	/*background-color:#8F2600;*/
+	width:350px;
+	height:175px;
+	
+}
+#grid .services.kwicks .web .cover{
+	/*background-color:#8F2600;*/
+	background: #8F2600; /* Old browsers */
+/*	background: -moz-linear-gradient(top,  #8F2600 0%, #A2371E 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(100%,#A2371E));
+	background: -webkit-linear-gradient(top,  #8F2600 0%,#A2371E 100%); 
+	background: -o-linear-gradient(top,  #8F2600 0%,#A2371E 100%); 
+	background: -ms-linear-gradient(top,  #8F2600 0%,#A2371E 100%); 
+	background: linear-gradient(to bottom,  #8F2600 0%,#A2371E 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8F2600', endColorstr='#A2371E',GradientType=0 ); */
+	width:175px;
+	height:175px;
+	/*margin:20px;*/
+	text-align:center;
+	
+}
+#grid .services.kwicks .coworking{
+	background-color:#A2371E;
+	width:350px;
+	height:175px;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#grid .services.kwicks .coworking .cover{
+	background-color:#A2371E;
+	width:175px;
+	height:175px;
+	text-align:center;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	
+}
+
+
+.title{
+	color:white;
+	vertical-align:middle;
+	padding-top: 20px;
+	font-family: 'Open Sans'; 
+	filter: alpha(opacity=75);
+	opacity: 0.75;
+	
+}
+.title:hover{
+	opacity: 1;
+	-webkit-transform: scale(1.05);
+	-moz-transform:    scale(1.05);
+	-ms-transform:     scale(1.05);
+	-o-transform:      scale(1.05);
+	transform:         scale(1.05);
+	
+}
+.caption{
+	color:white;
+	vertical-align:middle;
+	padding-top: 20px;
+	font-family: 'Open Sans'; 
+ 	visibility:hidden;
+}
+.caption:hover{
+	visibility:visible;
+
+}
