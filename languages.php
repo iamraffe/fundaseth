@@ -1,28 +1,27 @@
-<?php	
+<?php
 	require_once("lib/streams.php");
 	require_once("lib/gettext.php");
 
 	ini_set('arg_separator.output', '&amp;');
 	ini_set("url_rewriter.tags","a=href,area=href,frame=src,iframe=src,input=src");
 
-	
 	session_start();
 	header('Cache-control: private'); // IE 6 FIX
-	 
-	if(isSet($_GET['lang']))
+
+	if(isset($_GET['lang']))
 	{
 		$locale_lang = $_GET['lang'];
-	 
+
 		// register the session and set the cookie
 		$_SESSION['lang'] = $locale_lang;
-	 
+
 		setcookie('lang', $locale_lang, time() + (3600 * 24 * 30));
 	}
-	else if(isSet($_SESSION['lang']))
+	elseif(isset($_SESSION['lang']))
 	{
 		$locale_lang = $_SESSION['lang'];
 	}
-	else if(isSet($_COOKIE['lang']))
+	elseif(isset($_COOKIE['lang']))
 	{
 		$locale_lang = $_COOKIE['lang'];
 	}
@@ -38,7 +37,6 @@
 		3 => "Valor Social | Fundaseth, S.L.",
 		4 => "Contacto | Fundaseth, S.L.",
 	);
-	
 	$description = array(
 		0 => "Fundaseth, S.L. Trabajamos codo a codo con nuestros clientes, grandes, medianas, pequeñas empresas o autónomos, entendiendo sus necesidades y maximizando sus recursos.",
 		1 => "En Fundaseth aportamos nuestro granito de arena favoreciendo la integración laboral de los pacientes con cáncer y apoyando iniciativas que buscan mejorar su calidad de vida.",
@@ -51,7 +49,7 @@
 		0 => "Fundaseth",
 	);
 	
-	if($locale_lang != 'es'){
+	if(strcmp($locale_lang,'es') != 0){
 		$lang = "en";
 	}
 	else{
